@@ -32,6 +32,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Crm.Sdk.Proxy">
+      <HintPath>..\..\..\..\Online SDK\SDK\Bin\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk">
+      <HintPath>..\..\..\..\Online SDK\SDK\Bin\Microsoft.Xrm.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk.Deployment">
+      <HintPath>..\..\..\..\Online SDK\SDK\Bin\Microsoft.Xrm.Sdk.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Tooling.Connector">
+      <HintPath>..\..\..\..\Online SDK\SDK\Bin\Microsoft.Xrm.Tooling.Connector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Tooling.CrmConnector.Powershell">
+      <HintPath>..\..\..\..\Online SDK\SDK\Bin\Microsoft.Xrm.Tooling.CrmConnector.Powershell.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HelperClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
